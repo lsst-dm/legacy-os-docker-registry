@@ -6,8 +6,7 @@ parameters:
    flavor: m1.medium 
    qserv_image_id: d36cc0c5-474f-477d-a62d-3df3b8988005 
    network_name: LSST-net 
-   subnet_name: LSST-net 
-   public_network: ext-net
+   subnet_name: 2f2a1da4-1234-4c23-be98-0e57c130c342 
    volume_id: 14a83e81-0afe-4ae7-ad94-8b4111ac6f9e 
 
 # Please update the file cloud-config-dr for ssh-pub-key

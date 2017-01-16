@@ -1,6 +1,6 @@
 # See http://docs.openstack.org/developer/heat/template_guide/hot_spec.html
 
-heat_template_version: 2015-10-15
+heat_template_version: 2015-04-30
 
 description: Launch a Docker Registry Mirror
 
@@ -31,9 +31,6 @@ parameters:
       type: string
       constraints:
          - custom_constraint: neutron.subnet
-   public_network:
-      description: Public network id
-      type: string
    volume_id:
       description: Existing Volume ID to store cached docker images
       type: string   

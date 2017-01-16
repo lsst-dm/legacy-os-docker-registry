@@ -7,7 +7,6 @@ parameters:
    qserv_image_id: 2f953ce2-f13d-4dc6-b65f-b36ffe3d61d6
    network_name: petasky-net
    subnet_name: petasky-subnet
-   public_network: ext-net
    volume_id: 4b933d3d-710b-4e41-aef3-2a55931d624e
 
 # Please update the file cloud-config-dr for ssh-pub-key
