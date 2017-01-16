@@ -1,0 +1,13 @@
+# Environment file for LSST @ NCSA
+# Used for creating a Docker Registry Mirror
+
+parameters:
+   key_name: lsst-fabricejammes-qserv 
+   flavor: m1.medium 
+   qserv_image_id: d36cc0c5-474f-477d-a62d-3df3b8988005 
+   network_name: LSST-net 
+   subnet_name: petasky-subnet
+   public_network: ext-net
+   volume_id: 14a83e81-0afe-4ae7-ad94-8b4111ac6f9e 
+
+# Please update the file cloud-config-dr for ssh-pub-key
